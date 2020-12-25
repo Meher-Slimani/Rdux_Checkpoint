@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.barre {
+  text-decoration: line-through;
+  color: red;
+}
+
+select {
+  text-align-last: center;
+}
+
+input {
+  border: 1.5px solid white !important;
+  background-color: transparent !important;
+  font-family: "Handlee", cursive;
+  color: white !important;
+}
+
+/* input h3 {
+} */
+
+h3 {
+  font-family: "Handlee", cursive;
+  color: white !important;
+  margin: 0 !important;
+  padding: 2px 0;
+}
+
+body {
+  background-image: url(bc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white !important;
+}
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+select {
+  background-color: goldenrod !important;
+}
